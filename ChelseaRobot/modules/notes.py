@@ -23,14 +23,14 @@ from telegram.ext import (
 from telegram.ext.dispatcher import run_async
 from telegram.utils.helpers import escape_markdown, mention_markdown
 
-import AnkiVector.modules.sql.notes_sql as sql
-from AnkiVector import DRAGONS, JOIN_LOGGER, LOGGER, SUPPORT_CHAT, dispatcher
-from AnkiVector.modules.disable import DisableAbleCommandHandler
-from AnkiVector.modules.helper_funcs.chat_status import connection_status, user_admin
-from AnkiVector.modules.helper_funcs.handlers import MessageHandlerChecker
-from AnkiVector.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from AnkiVector.modules.helper_funcs.msg_types import get_note_type
-from AnkiVector.modules.helper_funcs.string_handling import (
+import ChelseaRobot.modules.sql.notes_sql as sql
+from ChelseaRobot import DRAGONS, JOIN_LOGGER, LOGGER, SUPPORT_CHAT, dispatcher
+from ChelseaRobot.modules.disable import DisableAbleCommandHandler
+from ChelseaRobot.modules.helper_funcs.chat_status import connection_status, user_admin
+from ChelseaRobot.modules.helper_funcs.handlers import MessageHandlerChecker
+from ChelseaRobot.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from ChelseaRobot.modules.helper_funcs.msg_types import get_note_type
+from ChelseaRobot.modules.helper_funcs.string_handling import (
     escape_invalid_curly_brackets,
 )
 

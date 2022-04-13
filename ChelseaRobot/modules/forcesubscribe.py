@@ -26,9 +26,9 @@ from pyrogram.errors.exceptions.bad_request_400 import (
 )
 from pyrogram.types import ChatPermissions, InlineKeyboardButton, InlineKeyboardMarkup
 
-from AnkiVector import DRAGONS as SUDO_USERS
-from AnkiVector import pbot
-from AnkiVector.modules.sql import forceSubscribe_sql as sql
+from ChelseaRobot import DRAGONS as SUDO_USERS
+from ChelseaRobot import pbot
+from ChelseaRobot.modules.sql import forceSubscribe_sql as sql
 
 logging.basicConfig(level=logging.INFO)
 

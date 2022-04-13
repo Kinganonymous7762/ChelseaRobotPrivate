@@ -22,17 +22,17 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html, mention_markdown
 
-import AnkiVector.modules.sql.feds_sql as sql
-from AnkiVector import DRAGONS, EVENT_LOGS, LOGGER, OWNER_ID, TIGERS, WOLVES, dispatcher
-from AnkiVector.modules.disable import DisableAbleCommandHandler
-from AnkiVector.modules.helper_funcs.alternate import send_message
-from AnkiVector.modules.helper_funcs.chat_status import is_user_admin
-from AnkiVector.modules.helper_funcs.extraction import (
+import ChelseaRobot.modules.sql.feds_sql as sql
+from ChelseaRobot import DRAGONS, EVENT_LOGS, LOGGER, OWNER_ID, TIGERS, WOLVES, dispatcher
+from ChelseaRobot.modules.disable import DisableAbleCommandHandler
+from ChelseaRobot.modules.helper_funcs.alternate import send_message
+from ChelseaRobot.modules.helper_funcs.chat_status import is_user_admin
+from ChelseaRobot.modules.helper_funcs.extraction import (
     extract_unt_fedban,
     extract_user,
     extract_user_fban,
 )
-from AnkiVector.modules.helper_funcs.string_handling import markdown_parser
+from ChelseaRobot.modules.helper_funcs.string_handling import markdown_parser
 
 # Hello bot owner, I spended for feds many hours of my life, Please don't remove this if you still respect MrYacha and peaktogoo and AyraHikari too
 # Federation by MrYacha 2018-2019

@@ -5,8 +5,8 @@ from pyrogram import filters
 from pytube import YouTube
 from youtubesearchpython import VideosSearch
 
-from AnkiVector import LOGGER, pbot
-from AnkiVector.utils.ut import get_arg
+from ChelseaRobot import LOGGER, pbot
+from ChelseaRobot.utils.ut import get_arg
 
 
 def yt_search(song):

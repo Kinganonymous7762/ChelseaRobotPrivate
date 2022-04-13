@@ -8,14 +8,14 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, run_async
 from telegram.utils.helpers import escape_markdown
 
-import AnkiVector.modules.helper_funcs.fun_strings as fun
-from AnkiVector import DEMONS, DRAGONS, dispatcher
-from AnkiVector.modules.disable import (
+import ChelseaRobot.modules.helper_funcs.fun_strings as fun
+from ChelseaRobot import DEMONS, DRAGONS, dispatcher
+from ChelseaRobot.modules.disable import (
     DisableAbleCommandHandler,
     DisableAbleMessageHandler,
 )
-from AnkiVector.modules.helper_funcs.alternate import typing_action
-from AnkiVector.modules.helper_funcs.extraction import extract_user
+from ChelseaRobot.modules.helper_funcs.alternate import typing_action
+from ChelseaRobot.modules.helper_funcs.extraction import extract_user
 
 
 @run_async

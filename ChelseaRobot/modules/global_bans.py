@@ -14,8 +14,8 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html
 
-import AnkiVector.modules.sql.global_bans_sql as sql
-from AnkiVector import (
+import ChelseaRobot.modules.sql.global_bans_sql as sql
+from ChelseaRobot import (
     DEMONS,
     DEV_USERS,
     DRAGONS,
@@ -29,17 +29,17 @@ from AnkiVector import (
     dispatcher,
     sw,
 )
-from AnkiVector.modules.helper_funcs.chat_status import (
+from ChelseaRobot.modules.helper_funcs.chat_status import (
     is_user_admin,
     support_plus,
     user_admin,
 )
-from AnkiVector.modules.helper_funcs.extraction import (
+from ChelseaRobot.modules.helper_funcs.extraction import (
     extract_user,
     extract_user_and_text,
 )
-from AnkiVector.modules.helper_funcs.misc import send_to_list
-from AnkiVector.modules.sql.users_sql import get_user_com_chats
+from ChelseaRobot.modules.helper_funcs.misc import send_to_list
+from ChelseaRobot.modules.sql.users_sql import get_user_com_chats
 
 GBAN_ENFORCE_GROUP = 6
 

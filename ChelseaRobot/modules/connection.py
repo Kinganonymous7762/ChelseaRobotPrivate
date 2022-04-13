@@ -5,10 +5,10 @@ from telegram import Bot, InlineKeyboardButton, InlineKeyboardMarkup, ParseMode,
 from telegram.error import BadRequest, Unauthorized
 from telegram.ext import CallbackQueryHandler, CommandHandler, run_async
 
-import AnkiVector.modules.sql.connection_sql as sql
-from AnkiVector import DEV_USERS, DRAGONS, dispatcher
-from AnkiVector.modules.helper_funcs import chat_status
-from AnkiVector.modules.helper_funcs.alternate import send_message, typing_action
+import ChelseaRobot.modules.sql.connection_sql as sql
+from ChelseaRobot import DEV_USERS, DRAGONS, dispatcher
+from ChelseaRobot.modules.helper_funcs import chat_status
+from ChelseaRobot.modules.helper_funcs.alternate import send_message, typing_action
 
 user_admin = chat_status.user_admin
 

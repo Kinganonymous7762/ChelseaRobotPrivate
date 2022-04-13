@@ -13,8 +13,8 @@ from telethon import events
 from telethon.tl.functions.channels import GetFullChannelRequest
 from telethon.tl.types import ChannelParticipantsAdmins
 
-import AnkiVector.modules.sql.userinfo_sql as sql
-from AnkiVector import (
+import ChelseaRobot.modules.sql.userinfo_sql as sql
+from ChelseaRobot import (
     DEMONS,
     DEV_USERS,
     DRAGONS,
@@ -25,14 +25,14 @@ from AnkiVector import (
     dispatcher,
     sw,
 )
-from AnkiVector import telethn as SaitamaTelethonClient
-from AnkiVector.__main__ import STATS, TOKEN, USER_INFO
-from AnkiVector.modules.disable import DisableAbleCommandHandler
-from AnkiVector.modules.helper_funcs.chat_status import sudo_plus
-from AnkiVector.modules.helper_funcs.extraction import extract_user
-from AnkiVector.modules.sql.afk_sql import check_afk_status, is_afk
-from AnkiVector.modules.sql.global_bans_sql import is_user_gbanned
-from AnkiVector.modules.sql.users_sql import get_user_num_chats
+from ChelseaRobot import telethn as SaitamaTelethonClient
+from ChelseaRobot.__main__ import STATS, TOKEN, USER_INFO
+from ChelseaRobot.modules.disable import DisableAbleCommandHandler
+from ChelseaRobot.modules.helper_funcs.chat_status import sudo_plus
+from ChelseaRobot.modules.helper_funcs.extraction import extract_user
+from ChelseaRobot.modules.sql.afk_sql import check_afk_status, is_afk
+from ChelseaRobot.modules.sql.global_bans_sql import is_user_gbanned
+from ChelseaRobot.modules.sql.users_sql import get_user_num_chats
 
 
 def no_by_per(totalhp, percentage):

@@ -5,13 +5,13 @@ from telegram import MessageEntity, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, Filters, MessageHandler, run_async
 
-from AnkiVector import dispatcher
-from AnkiVector.modules.disable import (
+from ChelseaRobot import dispatcher
+from ChelseaRobot.modules.disable import (
     DisableAbleCommandHandler,
     DisableAbleMessageHandler,
 )
-from AnkiVector.modules.sql import afk_sql as sql
-from AnkiVector.modules.users import get_user_id
+from ChelseaRobot.modules.sql import afk_sql as sql
+from ChelseaRobot.modules.users import get_user_id
 
 AFK_GROUP = 7
 AFK_REPLY_GROUP = 8

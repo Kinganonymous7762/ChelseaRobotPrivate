@@ -8,8 +8,8 @@ import requests
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.ext import CallbackContext, CallbackQueryHandler, run_async
 
-from AnkiVector import DEV_USERS, DRAGONS, OWNER_ID, dispatcher
-from AnkiVector.modules.disable import DisableAbleCommandHandler
+from ChelseaRobot import DEV_USERS, DRAGONS, OWNER_ID, dispatcher
+from ChelseaRobot.modules.disable import DisableAbleCommandHandler
 
 info_btn = "More Information"
 kaizoku_btn = "Kaizoku ☠️"

@@ -106,7 +106,7 @@ if ENV:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
 else:
-    from AnkiVector.config import Development as Config
+    from ChelseaRobot.config import Development as Config
 
     TOKEN = Config.TOKEN
 

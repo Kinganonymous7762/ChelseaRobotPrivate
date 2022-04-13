@@ -5,9 +5,9 @@ import zipfile
 from telethon import types
 from telethon.tl import functions
 
-from AnkiVector import TEMP_DOWNLOAD_DIRECTORY
-from AnkiVector import telethn as client
-from AnkiVector.events import register
+from ChelseaRobot import TEMP_DOWNLOAD_DIRECTORY
+from ChelseaRobot import telethn as client
+from ChelseaRobot.events import register
 
 
 async def is_register_admin(chat, user):

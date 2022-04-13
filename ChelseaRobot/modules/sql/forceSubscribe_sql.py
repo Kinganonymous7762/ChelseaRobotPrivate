@@ -16,7 +16,7 @@
 
 from sqlalchemy import Column, Numeric, String
 
-from AnkiVector.modules.sql import BASE, SESSION
+from ChelseaRobot.modules.sql import BASE, SESSION
 
 
 class forceSubscribe(BASE):

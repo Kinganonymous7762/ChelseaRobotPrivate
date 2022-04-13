@@ -3,7 +3,7 @@ from typing import Union
 
 from sqlalchemy import Boolean, Column, Integer, String
 
-from AnkiVector.modules.sql import BASE, SESSION
+from ChelseaRobot.modules.sql import BASE, SESSION
 
 
 class ReportingUserSettings(BASE):

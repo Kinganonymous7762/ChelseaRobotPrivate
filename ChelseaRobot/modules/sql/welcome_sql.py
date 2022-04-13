@@ -4,8 +4,8 @@ from typing import Union
 
 from sqlalchemy import BigInteger, Boolean, Column, Integer, String, UnicodeText
 
-from AnkiVector.modules.helper_funcs.msg_types import Types
-from AnkiVector.modules.sql import BASE, SESSION
+from ChelseaRobot.modules.helper_funcs.msg_types import Types
+from ChelseaRobot.modules.sql import BASE, SESSION
 
 DEFAULT_WELCOME = "Hey {first}, how are you?"
 DEFAULT_GOODBYE = "Nice knowing ya!"

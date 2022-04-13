@@ -1,7 +1,7 @@
 from telethon.tl.types import ChannelParticipantsAdmins
 
-from AnkiVector import DRAGONS
-from AnkiVector.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
+from ChelseaRobot import DRAGONS
+from ChelseaRobot.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
 
 
 async def user_is_ban_protected(user_id: int, message):

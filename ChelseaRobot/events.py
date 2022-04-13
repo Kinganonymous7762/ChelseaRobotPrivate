@@ -1,6 +1,6 @@
 from telethon import events
 
-from AnkiVector import telethn
+from ChelseaRobot import telethn
 
 
 def register(**args):

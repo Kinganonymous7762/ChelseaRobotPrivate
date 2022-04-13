@@ -35,7 +35,7 @@ from telegram.ext import (
 from telegram.ext.dispatcher import DispatcherHandlerStop, run_async
 from telegram.utils.helpers import escape_markdown
 
-from AnkiVector import (
+from ChelseaRobot import (
     ALLOW_EXCL,
     BL_CHATS,
     CERT_PATH,
@@ -57,11 +57,11 @@ from AnkiVector import (
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from AnkiVector.modules import ALL_MODULES
-from AnkiVector.modules.helper_funcs.alternate import typing_action
-from AnkiVector.modules.helper_funcs.chat_status import is_user_admin
-from AnkiVector.modules.helper_funcs.misc import paginate_modules
-from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
+from ChelseaRobot.modules import ALL_MODULES
+from ChelseaRobot.modules.helper_funcs.alternate import typing_action
+from ChelseaRobot.modules.helper_funcs.chat_status import is_user_admin
+from ChelseaRobot.modules.helper_funcs.misc import paginate_modules
+from ChelseaRobot.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = f"""
 *Hellow There, I'm Chelsea Robot 💞
@@ -353,7 +353,7 @@ def help_button(update, context):
 
 
 @run_async
-def AnkiVector_about_callback(update, context):
+def ChelseaRobot_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(

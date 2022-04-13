@@ -16,8 +16,8 @@ from youtube_dl.utils import (
     XAttrMetadataError,
 )
 
-from AnkiVector.events import register
-from AnkiVector.utils import progress
+from ChelseaRobot.events import register
+from ChelseaRobot.utils import progress
 
 try:
     from youtubesearchpython import SearchVideos

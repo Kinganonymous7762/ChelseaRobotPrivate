@@ -10,8 +10,8 @@ from sqlalchemy import (
     func,
 )
 
-from AnkiVector import dispatcher
-from AnkiVector.modules.sql import BASE, SESSION
+from ChelseaRobot import dispatcher
+from ChelseaRobot.modules.sql import BASE, SESSION
 
 
 class Users(BASE):

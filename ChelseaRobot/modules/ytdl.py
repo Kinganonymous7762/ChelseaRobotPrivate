@@ -14,7 +14,7 @@ from youtube_dl.utils import (
     XAttrMetadataError,
 )
 
-from AnkiVector.events import register as saitama
+from ChelseaRobot.events import register as saitama
 
 
 @saitama(pattern="^/yt(audio|video) (.*)")

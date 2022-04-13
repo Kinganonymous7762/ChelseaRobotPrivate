@@ -4,7 +4,7 @@ from typing import Union
 
 from sqlalchemy import Boolean, Column, Integer, String, UnicodeText
 
-from AnkiVector.modules.sql import BASE, SESSION
+from ChelseaRobot.modules.sql import BASE, SESSION
 
 
 class ChatAccessConnectionSettings(BASE):

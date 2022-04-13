@@ -7,9 +7,9 @@ from PIL import Image
 from telegram import Update
 from telegram.ext import CallbackContext, run_async
 
-from AnkiVector import dispatcher
-from AnkiVector.modules.disable import DisableAbleCommandHandler
-from AnkiVector.modules.thonkify_dict import thonkifydict
+from ChelseaRobot import dispatcher
+from ChelseaRobot.modules.disable import DisableAbleCommandHandler
+from ChelseaRobot.modules.thonkify_dict import thonkifydict
 
 
 @run_async

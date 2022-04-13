@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, String, UnicodeText
 
-from AnkiVector.modules.sql import BASE, SESSION
+from ChelseaRobot.modules.sql import BASE, SESSION
 
 
 class BlacklistUsers(BASE):

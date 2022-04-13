@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, Integer, String
 
-from AnkiVector.modules.sql import BASE, SESSION
+from ChelseaRobot.modules.sql import BASE, SESSION
 
 
 class Approvals(BASE):

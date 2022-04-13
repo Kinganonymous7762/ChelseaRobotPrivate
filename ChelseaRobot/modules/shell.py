@@ -4,8 +4,8 @@ from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, CommandHandler
 from telegram.ext.dispatcher import run_async
 
-from AnkiVector import LOGGER, dispatcher
-from AnkiVector.modules.helper_funcs.chat_status import dev_plus
+from ChelseaRobot import LOGGER, dispatcher
+from ChelseaRobot.modules.helper_funcs.chat_status import dev_plus
 
 
 @dev_plus

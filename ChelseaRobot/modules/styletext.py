@@ -1,9 +1,9 @@
 from telegram import ParseMode
 from telegram.ext import run_async
 
-from AnkiVector import dispatcher
-from AnkiVector.modules.disable import DisableAbleCommandHandler
-from AnkiVector.modules.helper_funcs.alternate import typing_action
+from ChelseaRobot import dispatcher
+from ChelseaRobot.modules.disable import DisableAbleCommandHandler
+from ChelseaRobot.modules.helper_funcs.alternate import typing_action
 
 normiefont = [
     "a",

@@ -16,8 +16,8 @@ from telegram import (
 from telegram.ext import CallbackContext, run_async
 from telegram.utils.helpers import mention_html
 
-from AnkiVector import dispatcher
-from AnkiVector.modules.disable import DisableAbleCommandHandler
+from ChelseaRobot import dispatcher
+from ChelseaRobot.modules.disable import DisableAbleCommandHandler
 
 combot_stickers_url = "https://combot.org/telegram/stickers?q="
 

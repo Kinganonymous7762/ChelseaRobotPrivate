@@ -4,9 +4,9 @@ import random
 from telegram import Update
 from telegram.ext import CallbackContext, run_async
 
-import AnkiVector.modules.animequotesstring as animequotesstring
-from AnkiVector import dispatcher
-from AnkiVector.modules.disable import DisableAbleCommandHandler
+import ChelseaRobot.modules.animequotesstring as animequotesstring
+from ChelseaRobot import dispatcher
+from ChelseaRobot.modules.disable import DisableAbleCommandHandler
 
 
 @run_async

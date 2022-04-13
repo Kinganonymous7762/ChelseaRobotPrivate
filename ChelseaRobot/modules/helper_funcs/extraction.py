@@ -5,8 +5,8 @@ from telegram.error import BadRequest
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon.tl.types import MessageEntityMentionName
 
-from AnkiVector import LOGGER
-from AnkiVector.modules.users import get_user_id
+from ChelseaRobot import LOGGER
+from ChelseaRobot.modules.users import get_user_id
 
 
 def id_from_reply(message):

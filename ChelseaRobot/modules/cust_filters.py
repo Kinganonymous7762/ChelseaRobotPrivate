@@ -15,23 +15,23 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import escape_markdown, mention_html
 
-from AnkiVector import DRAGONS, LOGGER, dispatcher
-from AnkiVector.modules.connection import connected
-from AnkiVector.modules.disable import DisableAbleCommandHandler
-from AnkiVector.modules.helper_funcs.alternate import send_message, typing_action
-from AnkiVector.modules.helper_funcs.chat_status import user_admin
-from AnkiVector.modules.helper_funcs.extraction import extract_text
-from AnkiVector.modules.helper_funcs.filters import CustomFilters
-from AnkiVector.modules.helper_funcs.handlers import MessageHandlerChecker
-from AnkiVector.modules.helper_funcs.misc import build_keyboard_parser
-from AnkiVector.modules.helper_funcs.msg_types import get_filter_type
-from AnkiVector.modules.helper_funcs.string_handling import (
+from ChelseaRobot import DRAGONS, LOGGER, dispatcher
+from ChelseaRobot.modules.connection import connected
+from ChelseaRobot.modules.disable import DisableAbleCommandHandler
+from ChelseaRobot.modules.helper_funcs.alternate import send_message, typing_action
+from ChelseaRobot.modules.helper_funcs.chat_status import user_admin
+from ChelseaRobot.modules.helper_funcs.extraction import extract_text
+from ChelseaRobot.modules.helper_funcs.filters import CustomFilters
+from ChelseaRobot.modules.helper_funcs.handlers import MessageHandlerChecker
+from ChelseaRobot.modules.helper_funcs.misc import build_keyboard_parser
+from ChelseaRobot.modules.helper_funcs.msg_types import get_filter_type
+from ChelseaRobot.modules.helper_funcs.string_handling import (
     button_markdown_parser,
     escape_invalid_curly_brackets,
     markdown_to_html,
     split_quotes,
 )
-from AnkiVector.modules.sql import cust_filters_sql as sql
+from ChelseaRobot.modules.sql import cust_filters_sql as sql
 
 HANDLER_GROUP = 10
 

@@ -5,8 +5,8 @@ import requests
 from telethon import types
 from telethon.tl import functions
 
-from AnkiVector import telethn
-from AnkiVector.events import register
+from ChelseaRobot import telethn
+from ChelseaRobot.events import register
 
 langi = "en"
 

@@ -22,8 +22,8 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import escape_markdown, mention_html, mention_markdown
 
-import AnkiVector.modules.sql.welcome_sql as sql
-from AnkiVector import (
+import ChelseaRobot.modules.sql.welcome_sql as sql
+from ChelseaRobot import (
     DEMONS,
     DEV_USERS,
     DRAGONS,
@@ -35,18 +35,18 @@ from AnkiVector import (
     dispatcher,
     sw,
 )
-from AnkiVector.modules.helper_funcs.chat_status import (
+from ChelseaRobot.modules.helper_funcs.chat_status import (
     is_user_ban_protected,
     user_admin,
 )
-from AnkiVector.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from AnkiVector.modules.helper_funcs.msg_types import get_welcome_type
-from AnkiVector.modules.helper_funcs.string_handling import (
+from ChelseaRobot.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from ChelseaRobot.modules.helper_funcs.msg_types import get_welcome_type
+from ChelseaRobot.modules.helper_funcs.string_handling import (
     escape_invalid_curly_brackets,
     markdown_parser,
 )
-from AnkiVector.modules.log_channel import loggable
-from AnkiVector.modules.sql.global_bans_sql import is_user_gbanned
+from ChelseaRobot.modules.log_channel import loggable
+from ChelseaRobot.modules.sql.global_bans_sql import is_user_gbanned
 
 VALID_WELCOME_FORMATTERS = [
     "first",

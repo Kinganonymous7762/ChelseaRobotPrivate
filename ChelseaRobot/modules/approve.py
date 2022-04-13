@@ -5,12 +5,12 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CallbackQueryHandler, run_async
 from telegram.utils.helpers import mention_html
 
-import AnkiVector.modules.sql.approve_sql as sql
-from AnkiVector import DRAGONS, dispatcher
-from AnkiVector.modules.disable import DisableAbleCommandHandler
-from AnkiVector.modules.helper_funcs.chat_status import user_admin
-from AnkiVector.modules.helper_funcs.extraction import extract_user
-from AnkiVector.modules.log_channel import loggable
+import ChelseaRobot.modules.sql.approve_sql as sql
+from ChelseaRobot import DRAGONS, dispatcher
+from ChelseaRobot.modules.disable import DisableAbleCommandHandler
+from ChelseaRobot.modules.helper_funcs.chat_status import user_admin
+from ChelseaRobot.modules.helper_funcs.extraction import extract_user
+from ChelseaRobot.modules.log_channel import loggable
 
 
 @loggable

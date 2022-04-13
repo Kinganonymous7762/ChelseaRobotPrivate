@@ -5,7 +5,7 @@ from cachetools import TTLCache
 from telegram import Chat, ChatMember, ParseMode, Update
 from telegram.ext import CallbackContext
 
-from AnkiVector import (
+from ChelseaRobot import (
     DEL_CMDS,
     DEMONS,
     DEV_USERS,
@@ -389,6 +389,6 @@ def connection_status(func):
 
 
 # Workaround for circular import with connection.py
-from AnkiVector.modules import connection
+from ChelseaRobot.modules import connection
 
 connected = connection.connected

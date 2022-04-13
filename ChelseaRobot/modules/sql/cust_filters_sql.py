@@ -2,8 +2,8 @@ import threading
 
 from sqlalchemy import Boolean, Column, Integer, String, UnicodeText, distinct, func
 
-from AnkiVector.modules.helper_funcs.msg_types import Types
-from AnkiVector.modules.sql import BASE, SESSION
+from ChelseaRobot.modules.helper_funcs.msg_types import Types
+from ChelseaRobot.modules.sql import BASE, SESSION
 
 
 class CustomFilters(BASE):

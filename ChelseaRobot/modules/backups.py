@@ -7,22 +7,22 @@ from telegram import Message, ParseMode
 from telegram.error import BadRequest
 from telegram.ext import CommandHandler, run_async
 
-# from AnkiVector.modules.sql import warns_sql as warnssql
-import AnkiVector.modules.sql.blacklist_sql as blacklistsql
+# from ChelseaRobot.modules.sql import warns_sql as warnssql
+import ChelseaRobot.modules.sql.blacklist_sql as blacklistsql
 
-# from AnkiVector.modules.sql import cust_filters_sql as filtersql
-# import AnkiVector.modules.sql.welcome_sql as welcsql
-import AnkiVector.modules.sql.locks_sql as locksql
-import AnkiVector.modules.sql.notes_sql as sql
+# from ChelseaRobot.modules.sql import cust_filters_sql as filtersql
+# import ChelseaRobot.modules.sql.welcome_sql as welcsql
+import ChelseaRobot.modules.sql.locks_sql as locksql
+import ChelseaRobot.modules.sql.notes_sql as sql
 
-# from AnkiVector.modules.rules import get_rules
-import AnkiVector.modules.sql.rules_sql as rulessql
-from AnkiVector import JOIN_LOGGER, LOGGER, OWNER_ID, dispatcher
-from AnkiVector.__main__ import DATA_IMPORT
-from AnkiVector.modules.connection import connected
-from AnkiVector.modules.helper_funcs.alternate import typing_action
-from AnkiVector.modules.helper_funcs.chat_status import user_admin
-from AnkiVector.modules.sql import disable_sql as disabledsql
+# from ChelseaRobot.modules.rules import get_rules
+import ChelseaRobot.modules.sql.rules_sql as rulessql
+from ChelseaRobot import JOIN_LOGGER, LOGGER, OWNER_ID, dispatcher
+from ChelseaRobot.__main__ import DATA_IMPORT
+from ChelseaRobot.modules.connection import connected
+from ChelseaRobot.modules.helper_funcs.alternate import typing_action
+from ChelseaRobot.modules.helper_funcs.chat_status import user_admin
+from ChelseaRobot.modules.sql import disable_sql as disabledsql
 
 
 @run_async

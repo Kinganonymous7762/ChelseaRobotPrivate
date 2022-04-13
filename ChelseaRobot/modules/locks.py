@@ -14,19 +14,19 @@ from telegram.ext import CommandHandler, Filters, MessageHandler
 from telegram.ext.dispatcher import run_async
 from telegram.utils.helpers import mention_html
 
-import AnkiVector.modules.sql.locks_sql as sql
-from AnkiVector import DRAGONS, LOGGER, dispatcher
-from AnkiVector.modules.connection import connected
-from AnkiVector.modules.disable import DisableAbleCommandHandler
-from AnkiVector.modules.helper_funcs.alternate import send_message, typing_action
-from AnkiVector.modules.helper_funcs.chat_status import (
+import ChelseaRobot.modules.sql.locks_sql as sql
+from ChelseaRobot import DRAGONS, LOGGER, dispatcher
+from ChelseaRobot.modules.connection import connected
+from ChelseaRobot.modules.disable import DisableAbleCommandHandler
+from ChelseaRobot.modules.helper_funcs.alternate import send_message, typing_action
+from ChelseaRobot.modules.helper_funcs.chat_status import (
     can_delete,
     is_bot_admin,
     is_user_admin,
     user_admin,
     user_not_admin,
 )
-from AnkiVector.modules.log_channel import loggable
+from ChelseaRobot.modules.log_channel import loggable
 
 ad = AlphabetDetector()
 

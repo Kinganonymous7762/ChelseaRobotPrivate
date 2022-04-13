@@ -12,10 +12,10 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html
 
-from AnkiVector import DRAGONS, LOGGER, TIGERS, WOLVES, dispatcher
-from AnkiVector.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from AnkiVector.modules.log_channel import loggable
-from AnkiVector.modules.sql import reporting_sql as sql
+from ChelseaRobot import DRAGONS, LOGGER, TIGERS, WOLVES, dispatcher
+from ChelseaRobot.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from ChelseaRobot.modules.log_channel import loggable
+from ChelseaRobot.modules.sql import reporting_sql as sql
 
 REPORT_GROUP = 12
 REPORT_IMMUNE_USERS = DRAGONS + TIGERS + WOLVES

@@ -6,9 +6,9 @@ from telegram.error import BadRequest, RetryAfter, Unauthorized
 from telegram.ext import CallbackContext, CommandHandler, Filters
 from telegram.ext.dispatcher import run_async
 
-from AnkiVector import OWNER_ID, dispatcher
-from AnkiVector.modules.helper_funcs.extraction import extract_user
-from AnkiVector.modules.sql.users_sql import get_user_com_chats
+from ChelseaRobot import OWNER_ID, dispatcher
+from ChelseaRobot.modules.helper_funcs.extraction import extract_user
+from ChelseaRobot.modules.sql.users_sql import get_user_com_chats
 
 
 @run_async

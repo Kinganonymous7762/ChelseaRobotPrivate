@@ -5,8 +5,8 @@ from telethon import events
 from telethon.errors.rpcerrorlist import MessageDeleteForbiddenError
 from telethon.tl.types import ChannelParticipantsAdmins
 
-from AnkiVector import DEV_USERS, telethn
-from AnkiVector.modules.helper_funcs.telethn.chatstatus import (
+from ChelseaRobot import DEV_USERS, telethn
+from ChelseaRobot.modules.helper_funcs.telethn.chatstatus import (
     can_delete_messages,
     user_is_admin,
 )

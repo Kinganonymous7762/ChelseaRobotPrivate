@@ -9,8 +9,8 @@ from bing_image_downloader import downloader
 from requests import get, post
 from telethon.tl import functions, types
 
-from AnkiVector import telethn as client
-from AnkiVector.events import register
+from ChelseaRobot import telethn as client
+from ChelseaRobot.events import register
 
 
 def progress(current, total):

@@ -9,10 +9,10 @@ from telegram.ext import (
     run_async,
 )
 
-import AnkiVector.modules.sql.global_bans_sql as gban_sql
-import AnkiVector.modules.sql.users_sql as user_sql
-from AnkiVector import DEV_USERS, OWNER_ID, dispatcher
-from AnkiVector.modules.helper_funcs.chat_status import dev_plus
+import ChelseaRobot.modules.sql.global_bans_sql as gban_sql
+import ChelseaRobot.modules.sql.users_sql as user_sql
+from ChelseaRobot import DEV_USERS, OWNER_ID, dispatcher
+from ChelseaRobot.modules.helper_funcs.chat_status import dev_plus
 
 
 def get_invalid_chats(update: Update, context: CallbackContext, remove: bool = False):

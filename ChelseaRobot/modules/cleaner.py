@@ -9,15 +9,15 @@ from telegram.ext import (
     run_async,
 )
 
-from AnkiVector import ALLOW_EXCL, CustomCommandHandler, dispatcher
-from AnkiVector.modules.disable import DisableAbleCommandHandler
-from AnkiVector.modules.helper_funcs.chat_status import (
+from ChelseaRobot import ALLOW_EXCL, CustomCommandHandler, dispatcher
+from ChelseaRobot.modules.disable import DisableAbleCommandHandler
+from ChelseaRobot.modules.helper_funcs.chat_status import (
     bot_can_delete,
     connection_status,
     dev_plus,
     user_admin,
 )
-from AnkiVector.modules.sql import cleaner_sql as sql
+from ChelseaRobot.modules.sql import cleaner_sql as sql
 
 if ALLOW_EXCL:
     CMD_STARTERS = ("/", "!")

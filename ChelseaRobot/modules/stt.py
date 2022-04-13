@@ -6,9 +6,9 @@ from telethon import *
 from telethon.tl import functions, types
 from telethon.tl.types import *
 
-from AnkiVector import *
-from AnkiVector import telethn
-from AnkiVector.events import register
+from ChelseaRobot import *
+from ChelseaRobot import telethn
+from ChelseaRobot.events import register
 
 
 async def is_register_admin(chat, user):

@@ -7,14 +7,14 @@ from telegram import ParseMode, TelegramError, Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 from telegram.utils.helpers import mention_html
 
-from AnkiVector import DEMONS, DEV_USERS, DRAGONS, OWNER_ID, TIGERS, WOLVES, dispatcher
-from AnkiVector.modules.helper_funcs.chat_status import (
+from ChelseaRobot import DEMONS, DEV_USERS, DRAGONS, OWNER_ID, TIGERS, WOLVES, dispatcher
+from ChelseaRobot.modules.helper_funcs.chat_status import (
     dev_plus,
     sudo_plus,
     whitelist_plus,
 )
-from AnkiVector.modules.helper_funcs.extraction import extract_user
-from AnkiVector.modules.log_channel import gloggable
+from ChelseaRobot.modules.helper_funcs.extraction import extract_user
+from ChelseaRobot.modules.log_channel import gloggable
 
 ELEVATED_USERS_FILE = os.path.join(os.getcwd(), "DaisyX/elevated_users.json")
 

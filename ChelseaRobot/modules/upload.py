@@ -7,9 +7,9 @@ import traceback
 import aiohttp
 from telethon import events
 
-from AnkiVector import telethn as bot
-from AnkiVector.modules.urluploader import download_file
-from AnkiVector.utils.uputils import humanbytes, progress
+from ChelseaRobot import telethn as bot
+from ChelseaRobot.modules.urluploader import download_file
+from ChelseaRobot.utils.uputils import humanbytes, progress
 
 DOWNLOADPATH = "Downloads/"
 

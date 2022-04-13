@@ -3,8 +3,8 @@ import threading
 from sqlalchemy import Boolean, Column, Integer, String, UnicodeText
 from telegram.error import BadRequest, Unauthorized
 
-from AnkiVector import dispatcher
-from AnkiVector.modules.sql import BASE, SESSION
+from ChelseaRobot import dispatcher
+from ChelseaRobot.modules.sql import BASE, SESSION
 
 
 class Federations(BASE):

@@ -1,9 +1,9 @@
 from telegram.ext import run_async
 
-from AnkiVector import dispatcher
-from AnkiVector.modules.disable import DisableAbleCommandHandler
-from AnkiVector.modules.helper_funcs.alternate import send_message
-from AnkiVector.modules.helper_funcs.chat_status import user_admin
+from ChelseaRobot import dispatcher
+from ChelseaRobot.modules.disable import DisableAbleCommandHandler
+from ChelseaRobot.modules.helper_funcs.alternate import send_message
+from ChelseaRobot.modules.helper_funcs.chat_status import user_admin
 
 
 @run_async

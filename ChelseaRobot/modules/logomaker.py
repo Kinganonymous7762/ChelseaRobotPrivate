@@ -1,6 +1,6 @@
-from AnkiVector.events import register
-from AnkiVector import OWNER_ID
-from AnkiVector import telethn as tbot
+from ChelseaRobot.events import register
+from ChelseaRobot import OWNER_ID
+from ChelseaRobot import telethn as tbot
 import os 
 from PIL import Image, ImageDraw, ImageFont
 import shutil 

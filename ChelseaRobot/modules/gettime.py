@@ -5,8 +5,8 @@ import requests
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 
-from AnkiVector import TIME_API_KEY, dispatcher
-from AnkiVector.modules.disable import DisableAbleCommandHandler
+from ChelseaRobot import TIME_API_KEY, dispatcher
+from ChelseaRobot.modules.disable import DisableAbleCommandHandler
 
 
 def generate_time(to_find: str, findtype: List[str]) -> str:

@@ -6,17 +6,17 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, Filters, MessageHandler, run_async
 from telegram.utils.helpers import mention_html
 
-import AnkiVector.modules.sql.blacklist_sql as sql
-from AnkiVector import LOGGER, dispatcher
-from AnkiVector.modules.connection import connected
-from AnkiVector.modules.disable import DisableAbleCommandHandler
-from AnkiVector.modules.helper_funcs.alternate import send_message, typing_action
-from AnkiVector.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from AnkiVector.modules.helper_funcs.extraction import extract_text
-from AnkiVector.modules.helper_funcs.misc import split_message
-from AnkiVector.modules.helper_funcs.string_handling import extract_time
-from AnkiVector.modules.log_channel import loggable
-from AnkiVector.modules.warns import warn
+import ChelseaRobot.modules.sql.blacklist_sql as sql
+from ChelseaRobot import LOGGER, dispatcher
+from ChelseaRobot.modules.connection import connected
+from ChelseaRobot.modules.disable import DisableAbleCommandHandler
+from ChelseaRobot.modules.helper_funcs.alternate import send_message, typing_action
+from ChelseaRobot.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from ChelseaRobot.modules.helper_funcs.extraction import extract_text
+from ChelseaRobot.modules.helper_funcs.misc import split_message
+from ChelseaRobot.modules.helper_funcs.string_handling import extract_time
+from ChelseaRobot.modules.log_channel import loggable
+from ChelseaRobot.modules.warns import warn
 
 BLACKLIST_GROUP = 11
 

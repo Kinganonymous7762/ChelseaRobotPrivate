@@ -7,16 +7,16 @@ from telegram.ext import CallbackContext, CommandHandler, Filters, MessageHandle
 from telegram.ext.dispatcher import run_async
 from telegram.utils.helpers import mention_html, mention_markdown
 
-import AnkiVector.modules.sql.blsticker_sql as sql
-from AnkiVector import LOGGER, dispatcher
-from AnkiVector.modules.connection import connected
-from AnkiVector.modules.disable import DisableAbleCommandHandler
-from AnkiVector.modules.helper_funcs.alternate import send_message
-from AnkiVector.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from AnkiVector.modules.helper_funcs.misc import split_message
-from AnkiVector.modules.helper_funcs.string_handling import extract_time
-from AnkiVector.modules.log_channel import loggable
-from AnkiVector.modules.warns import warn
+import ChelseaRobot.modules.sql.blsticker_sql as sql
+from ChelseaRobot import LOGGER, dispatcher
+from ChelseaRobot.modules.connection import connected
+from ChelseaRobot.modules.disable import DisableAbleCommandHandler
+from ChelseaRobot.modules.helper_funcs.alternate import send_message
+from ChelseaRobot.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from ChelseaRobot.modules.helper_funcs.misc import split_message
+from ChelseaRobot.modules.helper_funcs.string_handling import extract_time
+from ChelseaRobot.modules.log_channel import loggable
+from ChelseaRobot.modules.warns import warn
 
 
 @run_async

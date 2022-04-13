@@ -12,18 +12,18 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html
 
-from AnkiVector import TIGERS, WOLVES, dispatcher
-from AnkiVector.modules.connection import connected
-from AnkiVector.modules.helper_funcs.alternate import send_message
-from AnkiVector.modules.helper_funcs.chat_status import (
+from ChelseaRobot import TIGERS, WOLVES, dispatcher
+from ChelseaRobot.modules.connection import connected
+from ChelseaRobot.modules.helper_funcs.alternate import send_message
+from ChelseaRobot.modules.helper_funcs.chat_status import (
     bot_admin,
     is_user_admin,
     user_admin,
     user_admin_no_reply,
 )
-from AnkiVector.modules.helper_funcs.string_handling import extract_time
-from AnkiVector.modules.log_channel import loggable
-from AnkiVector.modules.sql import antiflood_sql as sql
+from ChelseaRobot.modules.helper_funcs.string_handling import extract_time
+from ChelseaRobot.modules.log_channel import loggable
+from ChelseaRobot.modules.sql import antiflood_sql as sql
 
 FLOOD_GROUP = 3
 

@@ -14,10 +14,10 @@
 
 
 ### Video Tutorial:
-Complete guide on deploying @TheAnkiVectorbot's clone on Heroku.
+Complete guide on deploying @Chelsea_Robot's clone on Heroku.
 
-☆ Video by [Damantha Jasinghe](https://www.youtube.com/watch?v=fXXEcAkWAFU) ☆
-[![YouTube](https://img.shields.io/badge/YouTube-Video%20Tutorial-red?logo=youtube)](https://www.youtube.com/watch?v=fXXEcAkWAFU)
+### Video by [Damantha Jasinghe](https://www.youtube.com/watch?v=fXXEcAkWAFU) ☆
+### [![YouTube](https://img.shields.io/badge/YouTube-Video%20Tutorial-red?logo=youtube)](https://www.youtube.com/watch?v=fXXEcAkWAFU)
 
 ## New version Avaiilable on Telegram as [Chelsea-Robot](https://t.me/Chelsea_Robot)
 ## Chelsea-Robot is the latest

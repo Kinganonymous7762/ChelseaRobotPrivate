@@ -33,7 +33,7 @@ The Advanced Branch (For PRO's)
 The Chelsea Robot(advanced)
 
 # Contributors
-![GitHub Contributors Image](https://contrib.rocks/image?repo=Damantha126/the-anki-vector)
+###![GitHub Contributors Image](https://contrib.rocks/image?repo=Damantha126/the-anki-vector)
 
 # Special Credits ❤
 ## Devs

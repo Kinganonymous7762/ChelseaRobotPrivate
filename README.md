@@ -30,7 +30,7 @@ Should any be missing kindly let us know at [The Chelsea Robot](https://t.me/Che
 ## Chelsea Robot the telegram Bot Project
 The Advanced Branch (For PRO's)
 
-The Anki Vector bot(advanced)
+The Chelsea Robot(advanced)
 
 # Contributors
 ![GitHub Contributors Image](https://contrib.rocks/image?repo=Damantha126/the-anki-vector)

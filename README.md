@@ -8,9 +8,9 @@
 </p>
 
 
-<p align="center">
-  <img src="https://telegra.ph/file/17e7c135c81197457ac84.jpg" width='600"'>
-</p>
+#<p align="center">
+#  <img src="https://telegra.ph/file/17e7c135c81197457ac84.jpg" width='600"'>
+#</p>
 
 # 2 Branches available. this is main brach. swith advaced fr all fetures
 

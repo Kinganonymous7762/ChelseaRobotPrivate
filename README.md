@@ -33,7 +33,5 @@ The Advanced Branch (For PRO's)
 The Chelsea Robot(advanced)
 
 # Contributors
-![GitHub Contributors Image]()
-
 # Special Credits ❤
 ## Devs

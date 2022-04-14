@@ -7,11 +7,6 @@
     <br><b>📦 PROJECT ARCHIVED, NO LONGER MAINTAINED !!</b><br>
 </p>
 
-
-#<p align="center">
-#  <img src="https://telegra.ph/file/17e7c135c81197457ac84.jpg" width='600"'>
-#</p>
-
 # 2 Branches available. this is main brach. swith advaced fr all fetures
 
 ### Deployment
@@ -24,20 +19,15 @@ Complete guide on deploying @TheAnkiVectorbot's clone on Heroku.
 ☆ Video by [Damantha Jasinghe](https://www.youtube.com/watch?v=fXXEcAkWAFU) ☆
 [![YouTube](https://img.shields.io/badge/YouTube-Video%20Tutorial-red?logo=youtube)](https://www.youtube.com/watch?v=fXXEcAkWAFU)
 
-## New version Avaiilable on Telegram as [The-Anki-Vector-Bot](https://t.me/TheAnkiVectorbot)
-## The-Anki-Vector-Bot is the latest
+## New version Avaiilable on Telegram as [Chelsea-Robot](https://t.me/Chelsea_Robot)
+## Chelsea-Robot is the latest
 
-
-
-
-The bot is based on the original work done by [PaulSonOfLars](https://github.com/PaulSonOfLars)
-This repo was just revamped to suit an Anime-centric community. All original credits go to Paul and his dedication, Without his efforts, this fork would not have been possible!
 
 All other credits mentioned on top of scripts
 
-Should any be missing kindly let us know at [The Anki Vector bot](https://t.me/ankivectorUpdates) or simply submit a pull request on the readme.
+Should any be missing kindly let us know at [The Chelsea Robot](https://t.me/ChelseaRobotUpdates) or simply submit a pull request on the readme.
 
-## The Anki Vector bot the telegram Bot Project
+## Chelsea Robot the telegram Bot Project
 The Advanced Branch (For PRO's)
 
 The Anki Vector bot(advanced)
@@ -46,27 +36,4 @@ The Anki Vector bot(advanced)
 ![GitHub Contributors Image](https://contrib.rocks/image?repo=Damantha126/the-anki-vector)
 
 # Special Credits ❤
-
-- **[Inuka Asith](https://github.com/inukaasith)**
-- **[Prabasha](https://github.com/prabhasha-p/)**
-- **[ImJanindu](https://github.com/imjanindu)** 
-- **[Devil](https://github.com/lucifeermorningstar)** 
-- **[Miss-Valentina](https://github.com/Miss-Valentina)** 
-- **[Mr-Dark-Prince](https://github.com/Mr-Dark-Prince/)** 
-- **[Anime Kaizoku](https://github.com/AnimeKaizoku)**
-- **[thehamkercat](https://github.com/thehamkercat/)**
-- **[TroJanzHEX](https://github.com/TroJanzHEX/)**
-- **[TeamDaisyX](https://github.com/teamdaisyx)**
-
-
 ## Devs
-
-- [Damantha Jasinghe](https://github.com/Damantha126) - Owner | Dev
-- [Sadew Jayasekara](https://Github.com/sadew451) - Owner | Dev
-- [DEXTER # FX](https://github.com/weejays) - Dev
-- [Thenula66](https://github.com/thenula63728292) - Dev
-- [King Amda](https://github.com/King-Amda) - Dev
-- [Thilina](https://github.com/Thilinaweerasekara2003) - Dev
-- [Percy Official](https://github.com/PercyOfficial) - Dev
-- [Supun](https://github.com/youtubeslgeekshow) - Dev
-- [Deshadeeth Thisarana](https://github.com/Deshadeeth-Thisarana) - Dev

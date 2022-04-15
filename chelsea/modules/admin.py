@@ -234,7 +234,7 @@ async def kickFunc(_, message: Message):
         return await message.reply_text("You Wanna Kick The Elevated One?")
     if user_id in (await list_admins(message.chat.id)):
         return await message.reply_text(
-            "I can't kick an admin, You know the rules, so do i."
+            "I can't kick an admin, You know the rules, so do i?"
         )
     mention = (await app.get_users(user_id)).mention
     msg = f"""

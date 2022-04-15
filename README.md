@@ -1,5 +1,5 @@
 <h1 align="center"> 
-    ✨ Chelsea_Robot ✨ 
+    ✨ Chelsea Robot ✨ 
 </h1>
 
 <h3 align="center"> 
@@ -28,8 +28,8 @@
 
 <p align="center">
     A Support Group and ready-to-use running instance of this bot can be found on Telegram <br>
-    <a href="https://t.me/Chelsea_Robot"> WilliamButcherBot </a> | 
-    <a href="https://t.me/ChelseaRobotSupport"> WbbSupport </a>
+    <a href="https://t.me/Chelsea_Robot"> Chelsea Robot </a> | 
+    <a href="https://t.me/ChelseaRobotSupport"> Chelsea Support </a>
 </p>
 
 <h2 align="center"> 
@@ -68,7 +68,7 @@ thehamkercat@arch:~$ python3 -m wbb
 
 <h1>
     <p align="center">
-        <a href="https://heroku.com/deploy?template=https://github.com/thehamkercat/WilliamButcherBot">
+        <a href="https://heroku.com/deploy?template=https://github.com/Kinganonymous7762/ChelseaRobotPrivate">
             <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
         </a>
     </p>

@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center"> 
-    Telegram Group Manager Bot + Userbot Written In Python Using Pyrogram.
+    Telegram Group Manager Bot + Music Bot Written In Python Using Pyrogram.
 </h3>
 
 <p align="center">

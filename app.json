@@ -41,7 +41,7 @@
          "value": ""
       },    
       "MONGO_URL": {
-         "description": "https://telegra.ph/How-To-get-Mongodb-URI-04-06"
+         "description": "https://telegra.ph/How-To-get-Mongodb-URI-04-06",
          "required": true,
          "value": ""
       },      

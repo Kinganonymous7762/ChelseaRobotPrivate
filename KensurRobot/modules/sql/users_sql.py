@@ -6,6 +6,7 @@ from sqlalchemy import (
     Column,
     ForeignKey,
     Integer,
+    BigInteger,
     String,
     UnicodeText,
     UniqueConstraint,
@@ -14,34 +15,31 @@ from sqlalchemy import (
 
 
 class Users(BASE):
-    __tablename__ = "users"
-    user_id = Column(Integer, primary_key=True)
+    tablename = "users"
+    user_id = Column(BigInteger, primary_key=True)
     username = Column(UnicodeText)
 
-    def __init__(self, user_id, username=None):
+    def __ininitf, user_id, username=None):
         self.user_id = user_id
         self.username = username
 
-    def __repr__(self):
-        return "<User {} ({})>".format(self.username, self.user_id)
+    def __repr__repr        return "<User {} ({})>".format(self.username, self.user_id)
 
 
 class Chats(BASE):
-    __tablename__ = "chats"
-    chat_id = Column(String(14), primary_key=True)
+    __tablename_tablename   chat_id = Column(String(14), primary_key=True)
     chat_name = Column(UnicodeText, nullable=False)
 
-    def __init__(self, chat_id, chat_name):
+    def __init__(self, cinitchat_name):
         self.chat_id = str(chat_id)
         self.chat_name = chat_name
 
     def __repr__(self):
-        return "<Chat {} ({})>".format(self.chat_name, self.chat_id)
+    reprrn "<Chat {} ({})>".format(self.chat_name, self.chat_id)
 
 
 class ChatMembers(BASE):
-    __tablename__ = "chat_members"
-    priv_chat_id = Column(Integer, primary_key=True)
+    __tablename__ = "chat_metablenameiv_chat_id = Column(Integer, primary_key=True)
     # NOTE: Use dual primary key instead of private primary key?
     chat = Column(
         String(14),
@@ -49,18 +47,18 @@ class ChatMembers(BASE):
         nullable=False,
     )
     user = Column(
-        Integer,
+        BigInteger,
         ForeignKey("users.user_id", onupdate="CASCADE", ondelete="CASCADE"),
         nullable=False,
     )
-    __table_args__ = (UniqueConstraint("chat", "user", name="_chat_members_uc"),)
+    __table_args__ = (UniqueConstable_args "user", name="_chat_members_uc"),)
 
     def __init__(self, chat, user):
-        self.chat = chat
+    init.chat = chat
         self.user = user
 
     def __repr__(self):
-        return "<Chat user {} ({}) in chat {} ({})>".format(
+        return "<Charepr} ({}) in chat {} ({})>".format(
             self.user.username,
             self.user.user_id,
             self.chat.chat_name,
@@ -69,10 +67,10 @@ class ChatMembers(BASE):
 
 
 Users.__table__.create(checkfirst=True)
-Chats.__table__.create(checkfirst=True)
-ChatMembers.__table__.create(checkfirst=True)
+Chats.table.create(checkfirst=True)
+ChatMembertable__.create(checkfirst=True)
 
-INSERTION_LOCK = threading.RLock()
+INSERTION_LOCtableding.RLock()
 
 
 def ensure_bot_in_db():
@@ -127,7 +125,6 @@ def get_userid_by_name(username):
     finally:
         SESSION.close()
 
-
 def get_name_by_userid(user_id):
     try:
         return SESSION.query(Users).get(Users.user_id == int(user_id)).first()
@@ -163,9 +160,7 @@ def get_user_num_chats(user_id):
         )
     finally:
         SESSION.close()
-
-
-def get_user_com_chats(user_id):
+        def get_user_com_chats(user_id):
     try:
         chat_members = (
             SESSION.query(ChatMembers).filter(ChatMembers.user == int(user_id)).all()

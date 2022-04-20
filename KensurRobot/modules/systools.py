@@ -175,7 +175,7 @@ def stats(update: Update, context: CallbackContext):
     msg += f"*• Uptime*: `{uptime}`\n\n"
     msg += "*Bot Statistics*\n"
     msg += "\n".join([mod.__stats__() for mod in STATS]) + "\n"
-    msg += "╘══「 by [Anon🇮🇳](https://github.com/KingAnonymous7762) 」"
+    msg += "╘══「 by [Anon🇮🇳](https://t.me/ItzMe_Anon) 」"
     
     message.reply_text(
         text = msg,

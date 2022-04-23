@@ -219,32 +219,4 @@ helptext = '''
 Tap /now to share what you're listening to on Spotify. You can also use the inline mode by typing @SpotifyNowBot in any chat.\n
 If you're new, you need to /link your account to get started. You can always /unlink it whenever you feel like.\n
 If you're facing errors, try restarting Spotify. No good? Send /cancel followed by /relink and if the issue persists, report it to @notdedsec.\n'''
-
-if __name__ == "__main__": 
-    if not os.path.exists('spotifynow.db'): 
-        sql.create_table()
-    with open('config.json','r') as conf: 
-        config = json.load(conf)
-    dumpchannel, jkey, client_id, client_secret, redirect_uri, bot_token, sudoList = config.values()
-    authlink = f"https://accounts.spotify.com/authorize?client_id={client_id}&response_type=code&redirect_uri={linkparse(redirect_uri)}&scope=user-read-currently-playing"
-
-    updater = Updater(bot_token, use_context=True)
-    os.system("title " + Bot(bot_token).first_name)
-    logging.basicConfig(format='\n\n%(levelname)s\n%(asctime)s\n%(name)s\n%(message)s', level=logging.ERROR)
-
-    USERNAME, AUTHTOKEN = range(2)
-    link_handler = ConversationHandler(
-        entry_points=[CommandHandler('link', link)],
-        states={USERNAME: [MessageHandler(Filters.text, getusername)]},
-        fallbacks=[CommandHandler('cancel', cancel)])
-
-    updater.dispatcher.add_handler(link_handler)
-    updater.dispatcher.add_handler(InlineQueryHandler(inlinenow))
-    updater.dispatcher.add_handler(CommandHandler('now', nowplaying))
-    updater.dispatcher.add_handler(CommandHandler('help', sendhelp))
-    updater.dispatcher.add_handler(CommandHandler('start', start))
-    updater.dispatcher.add_handler(CommandHandler('unlink', unlink))
-    updater.dispatcher.add_handler(CommandHandler('relink', relink))
-    updater.dispatcher.add_handler(CommandHandler('sstats', sstats))
-    updater.start_polling()
-    updater.idle()
+'''
